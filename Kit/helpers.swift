@@ -1555,7 +1555,7 @@ public class StepperInput: NSStackView, NSTextFieldDelegate, PreferencesSwitchWi
         
         if units == nil {
             if unit == "%" {
-                self.widthAnchor.constraint(equalToConstant: 68).isActive = true
+                self.widthAnchor.constraint(equalToConstant: 76).isActive = true
             }
             if visibileUnit {
                 let symbol: NSTextField = LabelField(unit)
